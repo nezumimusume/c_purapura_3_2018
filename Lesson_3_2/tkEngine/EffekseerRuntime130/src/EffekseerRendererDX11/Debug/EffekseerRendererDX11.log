@@ -1,0 +1,39 @@
+﻿  EffekseerRenderer.DDSTextureLoader.cpp
+  EffekseerRenderer.DXTK.DDSTextureLoader.cpp
+  EffekseerRenderer.IndexBufferBase.cpp
+  EffekseerRenderer.ModelRendererBase.cpp
+..\EffekseerRendererCommon\EffekseerRenderer.DXTK.DDSTextureLoader.cpp(1609): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+..\EffekseerRendererCommon\EffekseerRenderer.DXTK.DDSTextureLoader.cpp(1620): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  EffekseerRenderer.PngTextureLoader.cpp
+  EffekseerRenderer.Renderer.cpp
+  EffekseerRenderer.RenderStateBase.cpp
+  EffekseerRenderer.RibbonRendererBase.cpp
+..\EffekseerRendererCommon\EffekseerRenderer.PngTextureLoader.cpp(14): warning C4005: 'WINVER': マクロが再定義されました。
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\sdkddkver.h(236): note: 'WINVER' の以前の定義を確認してください (ソース ファイルをコンパイルしています ..\EffekseerRendererCommon\EffekseerRenderer.PngTextureLoader.cpp)
+..\EffekseerRendererCommon\EffekseerRenderer.PngTextureLoader.cpp(15): warning C4005: '_WIN32_WINNT': マクロが再定義されました。
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\shared\sdkddkver.h(215): note: '_WIN32_WINNT' の以前の定義を確認してください (ソース ファイルをコンパイルしています ..\EffekseerRendererCommon\EffekseerRenderer.PngTextureLoader.cpp)
+  EffekseerRenderer.RingRendererBase.cpp
+  EffekseerRenderer.SpriteRendererBase.cpp
+  EffekseerRenderer.TrackRendererBase.cpp
+  EffekseerRenderer.VertexBufferBase.cpp
+  EffekseerRendererDX11.DeviceObject.cpp
+  EffekseerRendererDX11.IndexBuffer.cpp
+  EffekseerRendererDX11.ModelLoader.cpp
+  EffekseerRendererDX11.ModelRenderer.cpp
+EffekseerRenderer\EffekseerRendererDX11.ModelLoader.cpp(50): warning C4101: 'hr': ローカル変数は 1 度も使われていません。
+  EffekseerRendererDX11.Renderer.cpp
+  EffekseerRendererDX11.RenderState.cpp
+  EffekseerRendererDX11.Shader.cpp
+  EffekseerRendererDX11.TextureLoader.cpp
+c:\github\c_purapura_3_2018\lesson_3\tkengine\effekseerruntime130\src\effekseerrendererdx11\effekseerrenderer\../../EffekseerRendererCommon/EffekseerRenderer.StandardRenderer.h(117): warning C4018: '>': signed と unsigned の数値を比較しようとしました。 (ソース ファイルをコンパイルしています EffekseerRenderer\EffekseerRendererDX11.Renderer.cpp)
+  c:\github\c_purapura_3_2018\lesson_3\tkengine\effekseerruntime130\src\effekseerrendererdx11\effekseerrenderer\../../EffekseerRendererCommon/EffekseerRenderer.StandardRenderer.h(114): note: クラス テンプレート のメンバー関数 'void EffekseerRenderer::StandardRenderer<EffekseerRendererDX11::RendererImplemented,EffekseerRendererDX11::Shader,EffekseerRendererDX11::Vertex,EffekseerRendererDX11::VertexDistortion>::BeginRenderingAndRenderingIfRequired(int32_t,int32_t &,void *&)' のコンパイル中 (ソース ファイルをコンパイルしています EffekseerRenderer\EffekseerRendererDX11.Renderer.cpp)
+  c:\github\c_purapura_3_2018\lesson_3\tkengine\effekseerruntime130\src\effekseerrendererdx11\effekseerrenderer\../../EffekseerRendererCommon/EffekseerRenderer.TrackRendererBase.h(105): note: コンパイル対象の関数 テンプレート インスタンス化 'void EffekseerRenderer::StandardRenderer<EffekseerRendererDX11::RendererImplemented,EffekseerRendererDX11::Shader,EffekseerRendererDX11::Vertex,EffekseerRendererDX11::VertexDistortion>::BeginRenderingAndRenderingIfRequired(int32_t,int32_t &,void *&)' のリファレンスを確認してください (ソース ファイルをコンパイルしています EffekseerRenderer\EffekseerRendererDX11.Renderer.cpp)
+  EffekseerRenderer\EffekseerRendererDX11.Renderer.cpp(294): note: コンパイル対象の クラス テンプレート インスタンス化 'EffekseerRenderer::StandardRenderer<EffekseerRendererDX11::RendererImplemented,EffekseerRendererDX11::Shader,EffekseerRendererDX11::Vertex,EffekseerRendererDX11::VertexDistortion>' のリファレンスを確認してください
+c:\github\c_purapura_3_2018\lesson_3\tkengine\effekseerruntime130\src\effekseerrendererdx11\effekseerrenderer\../../EffekseerRendererCommon/EffekseerRenderer.StandardRenderer.h(129): warning C4018: '>': signed と unsigned の数値を比較しようとしました。 (ソース ファイルをコンパイルしています EffekseerRenderer\EffekseerRendererDX11.Renderer.cpp)
+  EffekseerRendererDX11.VertexBuffer.cpp
+EffekseerRenderer.TrackRendererBase.obj : warning LNK4221: このオブジェクト ファイルは、以前に未定義であったパブリック シンボルを定義していないため、このライブラリを使用するリンク操作では使用されません
+EffekseerRenderer.SpriteRendererBase.obj : warning LNK4221: このオブジェクト ファイルは、以前に未定義であったパブリック シンボルを定義していないため、このライブラリを使用するリンク操作では使用されません
+EffekseerRenderer.RingRendererBase.obj : warning LNK4221: このオブジェクト ファイルは、以前に未定義であったパブリック シンボルを定義していないため、このライブラリを使用するリンク操作では使用されません
+EffekseerRenderer.RibbonRendererBase.obj : warning LNK4221: このオブジェクト ファイルは、以前に未定義であったパブリック シンボルを定義していないため、このライブラリを使用するリンク操作では使用されません
+EffekseerRenderer.Renderer.obj : warning LNK4221: このオブジェクト ファイルは、以前に未定義であったパブリック シンボルを定義していないため、このライブラリを使用するリンク操作では使用されません
+  EffekseerRendererDX11.vcxproj -> C:\GitHub\c_purapura_3_2018\Lesson_3\tkEngine\EffekseerRuntime130\src\EffekseerRendererDX11\..\lib\x86\EffekseerRendererDX11.Debug.lib
